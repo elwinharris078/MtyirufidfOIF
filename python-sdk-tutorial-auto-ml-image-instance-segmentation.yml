@@ -18,8 +18,6 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-    - name: check out repo
-      uses: actions/checkout@v2
     - name: setup python
       uses: actions/setup-python@v2
       with:
